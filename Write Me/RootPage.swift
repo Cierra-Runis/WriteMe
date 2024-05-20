@@ -5,34 +5,51 @@
 //  Created by Runis Cierra on 2024/5/20.
 //
 
-import SwiftData
 import SwiftUI
 
 struct RootPage: View {
-    @Environment(\.modelContext) private var modelContext
-    @Query private var works: [Work]
+    @State private var isShowingSheet = false
 
     var body: some View {
         NavigationSplitView {
             List {
                 Section(header: Text("My Works")) {
                     NavigationLink {
-                        WorksPage()
+                        ProjectsPage()
                     } label: {
-                        Label("My Projects", systemImage: "cloud.bolt.fill")
+                        HStack {
+                            Text("My Projects")
+                        }
+                    }
+                    NavigationLink {
+                        ScrollView {}
+                    } label: {
+                        HStack {
+                            Text("Imported Fonts")
+                        }
                     }
                 }
-                NavigationLink("My Projects", value: "")
-                NavigationLink("My Projects", value: "")
+            }.listStyle(
+                .insetGrouped
+            )
+            .toolbar {
+                ToolbarItem {
+                    Button(
+                        "Settings", systemImage: "gearshape",
+                        action: { isShowingSheet.toggle() }
+                    )
+                    .sheet(isPresented: $isShowingSheet) {
+                        SettingsView()
+                    }
+                }
             }
-            .navigationTitle("Write Me")
+            .navigationTitle(
+                "Write Me"
+            )
         } detail: {
             Text("Select an item")
-        }.navigationTitle("Write Me")
+        }
     }
 }
 
-#Preview {
-    RootPage()
-        .modelContainer(for: Work.self, inMemory: true)
-}
+#Preview { RootPage().modelContainer(for: Project.self, inMemory: false) }

@@ -10,9 +10,18 @@ import SwiftData
 
 @Model
 final class Project {
+    @Attribute(.unique)
     var name: String
+    var createAt: Date
+    var editAt: Date
 
-    init(name: String) {
+    init(
+        name: String = "",
+        createAt: Date = Date.now,
+        editAt: Date = Date.now
+    ) {
         self.name = name
+        self.createAt = createAt
+        self.editAt = editAt
     }
 }

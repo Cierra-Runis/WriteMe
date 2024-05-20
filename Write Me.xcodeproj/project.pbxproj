@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5920E9622BFAB7EB00F5FEA4 /* Write_MeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5920E9612BFAB7EB00F5FEA4 /* Write_MeApp.swift */; };
-		5920E9642BFAB7EB00F5FEA4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5920E9632BFAB7EB00F5FEA4 /* ContentView.swift */; };
-		5920E9662BFAB7EB00F5FEA4 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5920E9652BFAB7EB00F5FEA4 /* Item.swift */; };
+		5920E9622BFAB7EB00F5FEA4 /* MainApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5920E9612BFAB7EB00F5FEA4 /* MainApp.swift */; };
+		5920E9642BFAB7EB00F5FEA4 /* RootPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5920E9632BFAB7EB00F5FEA4 /* RootPage.swift */; };
+		5920E9662BFAB7EB00F5FEA4 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5920E9652BFAB7EB00F5FEA4 /* Project.swift */; };
 		5920E9682BFAB7EC00F5FEA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5920E9672BFAB7EC00F5FEA4 /* Assets.xcassets */; };
 		5920E96C2BFAB7EC00F5FEA4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5920E96B2BFAB7EC00F5FEA4 /* Preview Assets.xcassets */; };
 		5920E9762BFAB7EC00F5FEA4 /* Write_MeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5920E9752BFAB7EC00F5FEA4 /* Write_MeTests.swift */; };
 		5920E9802BFAB7EC00F5FEA4 /* Write_MeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5920E97F2BFAB7EC00F5FEA4 /* Write_MeUITests.swift */; };
 		5920E9822BFAB7EC00F5FEA4 /* Write_MeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5920E9812BFAB7EC00F5FEA4 /* Write_MeUITestsLaunchTests.swift */; };
+		5920E98F2BFABECA00F5FEA4 /* ProjectsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5920E98E2BFABECA00F5FEA4 /* ProjectsPage.swift */; };
+		5920E9922BFAD80C00F5FEA4 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5920E9912BFAD80C00F5FEA4 /* SettingsView.swift */; };
+		59E765942BFB1C3800ACAA84 /* ProjectCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E765932BFB1C3800ACAA84 /* ProjectCard.swift */; };
+		59E765972BFB221B00ACAA84 /* SwiftDate in Frameworks */ = {isa = PBXBuildFile; productRef = 59E765962BFB221B00ACAA84 /* SwiftDate */; };
+		59E765992BFB2D1B00ACAA84 /* ProjectPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E765982BFB2D1B00ACAA84 /* ProjectPage.swift */; };
+		59E7659C2BFB523C00ACAA84 /* Plangothic.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 59E7659B2BFB523C00ACAA84 /* Plangothic.ttc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,9 +42,9 @@
 
 /* Begin PBXFileReference section */
 		5920E95E2BFAB7EB00F5FEA4 /* Write Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Write Me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5920E9612BFAB7EB00F5FEA4 /* Write_MeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Write_MeApp.swift; sourceTree = "<group>"; };
-		5920E9632BFAB7EB00F5FEA4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		5920E9652BFAB7EB00F5FEA4 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		5920E9612BFAB7EB00F5FEA4 /* MainApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainApp.swift; sourceTree = "<group>"; };
+		5920E9632BFAB7EB00F5FEA4 /* RootPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootPage.swift; sourceTree = "<group>"; };
+		5920E9652BFAB7EB00F5FEA4 /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
 		5920E9672BFAB7EC00F5FEA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5920E9692BFAB7EC00F5FEA4 /* Write_Me.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Write_Me.entitlements; sourceTree = "<group>"; };
 		5920E96B2BFAB7EC00F5FEA4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -47,6 +53,12 @@
 		5920E97B2BFAB7EC00F5FEA4 /* Write MeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Write MeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5920E97F2BFAB7EC00F5FEA4 /* Write_MeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Write_MeUITests.swift; sourceTree = "<group>"; };
 		5920E9812BFAB7EC00F5FEA4 /* Write_MeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Write_MeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5920E98E2BFABECA00F5FEA4 /* ProjectsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsPage.swift; sourceTree = "<group>"; };
+		5920E9912BFAD80C00F5FEA4 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		59E765932BFB1C3800ACAA84 /* ProjectCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectCard.swift; sourceTree = "<group>"; };
+		59E765982BFB2D1B00ACAA84 /* ProjectPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectPage.swift; sourceTree = "<group>"; };
+		59E7659B2BFB523C00ACAA84 /* Plangothic.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; name = Plangothic.ttc; path = ../../../../../../Downloads/Plangothic.ttc; sourceTree = "<group>"; };
+		59E7659D2BFB52E500ACAA84 /* Write-Me-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Write-Me-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59E765972BFB221B00ACAA84 /* SwiftDate in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,12 +110,18 @@
 		5920E9602BFAB7EB00F5FEA4 /* Write Me */ = {
 			isa = PBXGroup;
 			children = (
-				5920E9612BFAB7EB00F5FEA4 /* Write_MeApp.swift */,
-				5920E9632BFAB7EB00F5FEA4 /* ContentView.swift */,
-				5920E9652BFAB7EB00F5FEA4 /* Item.swift */,
+				59E7659D2BFB52E500ACAA84 /* Write-Me-Info.plist */,
+				59E7659A2BFB520F00ACAA84 /* Font */,
+				5920E9612BFAB7EB00F5FEA4 /* MainApp.swift */,
+				59E765982BFB2D1B00ACAA84 /* ProjectPage.swift */,
+				5920E9652BFAB7EB00F5FEA4 /* Project.swift */,
+				5920E98E2BFABECA00F5FEA4 /* ProjectsPage.swift */,
+				5920E9632BFAB7EB00F5FEA4 /* RootPage.swift */,
+				5920E9912BFAD80C00F5FEA4 /* SettingsView.swift */,
 				5920E9672BFAB7EC00F5FEA4 /* Assets.xcassets */,
 				5920E9692BFAB7EC00F5FEA4 /* Write_Me.entitlements */,
 				5920E96A2BFAB7EC00F5FEA4 /* Preview Content */,
+				59E765932BFB1C3800ACAA84 /* ProjectCard.swift */,
 			);
 			path = "Write Me";
 			sourceTree = "<group>";
@@ -132,6 +151,14 @@
 			path = "Write MeUITests";
 			sourceTree = "<group>";
 		};
+		59E7659A2BFB520F00ACAA84 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				59E7659B2BFB523C00ACAA84 /* Plangothic.ttc */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -148,6 +175,9 @@
 			dependencies = (
 			);
 			name = "Write Me";
+			packageProductDependencies = (
+				59E765962BFB221B00ACAA84 /* SwiftDate */,
+			);
 			productName = "Write Me";
 			productReference = 5920E95E2BFAB7EB00F5FEA4 /* Write Me.app */;
 			productType = "com.apple.product-type.application";
@@ -218,8 +248,13 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
+				"zh-Hans",
 			);
 			mainGroup = 5920E9552BFAB7EB00F5FEA4;
+			packageReferences = (
+				59E765952BFB221B00ACAA84 /* XCRemoteSwiftPackageReference "SwiftDate" */,
+			);
 			productRefGroup = 5920E95F2BFAB7EB00F5FEA4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -236,6 +271,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59E7659C2BFB523C00ACAA84 /* Plangothic.ttc in Resources */,
 				5920E96C2BFAB7EC00F5FEA4 /* Preview Assets.xcassets in Resources */,
 				5920E9682BFAB7EC00F5FEA4 /* Assets.xcassets in Resources */,
 			);
@@ -262,9 +298,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5920E9642BFAB7EB00F5FEA4 /* ContentView.swift in Sources */,
-				5920E9662BFAB7EB00F5FEA4 /* Item.swift in Sources */,
-				5920E9622BFAB7EB00F5FEA4 /* Write_MeApp.swift in Sources */,
+				59E765992BFB2D1B00ACAA84 /* ProjectPage.swift in Sources */,
+				5920E9922BFAD80C00F5FEA4 /* SettingsView.swift in Sources */,
+				5920E9642BFAB7EB00F5FEA4 /* RootPage.swift in Sources */,
+				5920E98F2BFABECA00F5FEA4 /* ProjectsPage.swift in Sources */,
+				59E765942BFB1C3800ACAA84 /* ProjectCard.swift in Sources */,
+				5920E9662BFAB7EB00F5FEA4 /* Project.swift in Sources */,
+				5920E9622BFAB7EB00F5FEA4 /* MainApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,12 +468,14 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Write-Me-Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -446,10 +488,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "pers.cierra-runis.Write-Me";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -466,12 +509,14 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Write-Me-Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -484,10 +529,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "pers.cierra-runis.Write-Me";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -506,10 +552,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "pers.cierra-runis.Write-MeTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Write Me.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Write Me";
 			};
 			name = Debug;
@@ -529,10 +576,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "pers.cierra-runis.Write-MeTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Write Me.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Write Me";
 			};
 			name = Release;
@@ -551,10 +599,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "pers.cierra-runis.Write-MeUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 				TEST_TARGET_NAME = "Write Me";
 			};
 			name = Debug;
@@ -573,10 +622,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "pers.cierra-runis.Write-MeUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 				TEST_TARGET_NAME = "Write Me";
 			};
 			name = Release;
@@ -621,6 +671,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		59E765952BFB221B00ACAA84 /* XCRemoteSwiftPackageReference "SwiftDate" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/malcommac/SwiftDate";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		59E765962BFB221B00ACAA84 /* SwiftDate */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 59E765952BFB221B00ACAA84 /* XCRemoteSwiftPackageReference "SwiftDate" */;
+			productName = SwiftDate;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5920E9562BFAB7EB00F5FEA4 /* Project object */;
 }

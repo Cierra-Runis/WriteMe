@@ -12,7 +12,7 @@ import SwiftUI
 struct MainApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            Work.self,
+            Project.self,
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
