@@ -5,14 +5,14 @@
 //  Created by Runis Cierra on 2024/5/20.
 //
 
-import SwiftUI
 import SwiftData
+import SwiftUI
 
 @main
-struct Write_MeApp: App {
+struct MainApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            Item.self,
+            Work.self,
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
@@ -25,7 +25,7 @@ struct Write_MeApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootPage()
         }
         .modelContainer(sharedModelContainer)
     }
