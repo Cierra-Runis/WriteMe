@@ -57,7 +57,7 @@
 		5920E9812BFAB7EC00F5FEA4 /* Write_MeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Write_MeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		5920E98E2BFABECA00F5FEA4 /* ProjectsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsPage.swift; sourceTree = "<group>"; };
 		5920E9912BFAD80C00F5FEA4 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		59B7C5692BFB7D8F00AC9132 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		59BF1E7D2BFE625A00D38AAA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		59E765932BFB1C3800ACAA84 /* ProjectCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectCard.swift; sourceTree = "<group>"; };
 		59E765982BFB2D1B00ACAA84 /* ProjectPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectPage.swift; sourceTree = "<group>"; };
 		59E7659B2BFB523C00ACAA84 /* Plangothic.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; name = Plangothic.ttc; path = ../../../../../../Downloads/Plangothic.ttc; sourceTree = "<group>"; };
@@ -95,6 +95,7 @@
 		5920E9552BFAB7EB00F5FEA4 = {
 			isa = PBXGroup;
 			children = (
+				59BF1E7D2BFE625A00D38AAA /* README.md */,
 				5920E9602BFAB7EB00F5FEA4 /* Write Me */,
 				5920E9742BFAB7EC00F5FEA4 /* Write MeTests */,
 				5920E97E2BFAB7EC00F5FEA4 /* Write MeUITests */,
@@ -129,7 +130,6 @@
 				5920E96A2BFAB7EC00F5FEA4 /* Preview Content */,
 				59E765932BFB1C3800ACAA84 /* ProjectCard.swift */,
 				59E7659E2BFB5D8400ACAA84 /* UnicodeCard.swift */,
-				59B7C5692BFB7D8F00AC9132 /* README.md */,
 			);
 			path = "Write Me";
 			sourceTree = "<group>";
