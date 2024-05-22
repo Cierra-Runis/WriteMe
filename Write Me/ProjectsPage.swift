@@ -24,7 +24,8 @@ struct ProjectsPage: View {
                 }
                 else {
                     LazyVGrid(
-                        columns: Array(repeating: .init(.flexible(), spacing: 25.0), count: 4)
+                        columns: Array(repeating: .init(.flexible(), spacing: 8), count: 4),
+                        spacing: 8
                     ) {
                         ForEach(self.projects) { project in
                             ProjectCard(project: project)
@@ -44,9 +45,8 @@ struct ProjectsPage: View {
                         _CreateNewProjectSheet { self.isShowingSheet.toggle() }.presentationDetents([.medium])
                     }
                 )
-            }.navigationTitle(
-                "My Works"
-            )
+            }
+            .navigationTitle("My Works")
             .navigationBarTitleDisplayMode(.inline)
         }
     }
@@ -64,8 +64,9 @@ struct _CreateNewProjectSheet: View {
     let dismissAction: () -> Void
 
     var body: some View {
-        TextFormView {
-            validate in NavigationStack {
+        NavigationStack {
+            TextFormView {
+                validate in
                 List {
                     Section("Basic Info") {
                         TextField(

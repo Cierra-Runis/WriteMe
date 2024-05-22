@@ -10,7 +10,13 @@ import SwiftUI
 struct SettingsView: View {
     var body: some View {
         ScrollView {
-            List {}
+            Section("通用") {}
+            Section("关于") {
+                Text("\u{E001}")
+                    .font(.custom("Plangothic P1", size: Font.title.pointSize))
+                    .font(.custom("Plangothic P2", size: Font.title.pointSize))
+            }
+
         }.navigationTitle(
             "Settings"
         ).navigationBarTitleDisplayMode(.inline)
@@ -18,5 +24,7 @@ struct SettingsView: View {
 }
 
 #Preview {
-    SettingsView()
+    NavigationStack {
+        SettingsView()
+    }
 }

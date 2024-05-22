@@ -30,3 +30,32 @@ struct MainApp: App {
         .modelContainer(sharedModelContainer)
     }
 }
+
+extension Font {
+    var pointSize: CGFloat {
+        let fontStyleMapping: [Font: UIFont.TextStyle] = [
+            .largeTitle: .largeTitle,
+            .title: .title1,
+            .title2: .title2,
+            .title3: .title3,
+            .headline: .headline,
+            .subheadline: .subheadline,
+            .body: .body,
+            .callout: .callout,
+            .footnote: .footnote,
+            .caption: .caption1,
+            .caption2: .caption2,
+        ]
+        if let textStyle = fontStyleMapping[self] {
+            return UIFont.preferredFont(forTextStyle: textStyle).pointSize
+        } else {
+            return UIFont.systemFont(ofSize: UIFont.systemFontSize).pointSize
+        }
+    }
+}
+
+extension UInt16 {
+    func toHexString(uppercase: Bool = true, prefix: String = "") -> String {
+        return "\(prefix)\(String(self, radix: 16, uppercase: uppercase))"
+    }
+}

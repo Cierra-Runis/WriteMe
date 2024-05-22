@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+enum UnicodeBlock {
+    planeNum: Int
+    unicodeRange: Range<UInt32>
+}
+
+//
+// enum UnicodeBlockEnum {}

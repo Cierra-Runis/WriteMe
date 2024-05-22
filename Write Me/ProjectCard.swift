@@ -23,10 +23,10 @@ struct ProjectCard: View {
                     Text(project.name)
                         .font(.title2)
                         .fontWeight(.bold)
-                        .foregroundColor(.primary)
+                        .foregroundStyle(.primary)
                     Text("Latest Edit At: \(project.editAt.toRelative(since: Date.now.inDefaultRegion(), unitsStyle: .full))")
                         .font(.caption)
-                        .foregroundColor(.secondary)
+                        .foregroundStyle(.secondary)
 
                 }.lineLimit(1)
             }
@@ -34,7 +34,10 @@ struct ProjectCard: View {
             .containerShape(RoundedRectangle(cornerRadius: 25.0))
             .frame(maxWidth: 400, maxHeight: 400)
             .aspectRatio(1, contentMode: .fit)
-        }.alert(
+        }.foregroundStyle(
+            .primary
+        )
+        .alert(
             Text("Remove \"\(project.name)\"?"), isPresented: $isShowingAlert, actions: {
                 Button("Confrim", role: .destructive) {
                     modelContext.delete(project)

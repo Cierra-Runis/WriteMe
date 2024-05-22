@@ -10,6 +10,9 @@ import SwiftUI
 struct RootPage: View {
     @State private var isShowingSheet = false
 
+    
+    
+    
     var body: some View {
         NavigationSplitView {
             List {
@@ -17,35 +20,22 @@ struct RootPage: View {
                     NavigationLink {
                         ProjectsPage()
                     } label: {
-                        HStack {
-                            Text("My Projects")
-                        }
+                        HStack { Text("My Projects") }
                     }
-                    NavigationLink {
-                        ScrollView {}
-                    } label: {
-                        HStack {
-                            Text("Imported Fonts")
+                }
+            }.listStyle(.insetGrouped)
+                .toolbar {
+                    ToolbarItem {
+                        Button(
+                            "Settings", systemImage: "gearshape",
+                            action: { isShowingSheet.toggle() }
+                        )
+                        .sheet(isPresented: $isShowingSheet) {
+                            SettingsView()
                         }
                     }
                 }
-            }.listStyle(
-                .insetGrouped
-            )
-            .toolbar {
-                ToolbarItem {
-                    Button(
-                        "Settings", systemImage: "gearshape",
-                        action: { isShowingSheet.toggle() }
-                    )
-                    .sheet(isPresented: $isShowingSheet) {
-                        SettingsView()
-                    }
-                }
-            }
-            .navigationTitle(
-                "Write Me"
-            )
+                .navigationTitle("Write Me")
         } detail: {
             Text("Select an item")
         }
