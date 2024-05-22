@@ -39,7 +39,7 @@
 # 🧑‍💻 贡献者
 
 <a href="https://github.com/Cierra-Runis/WriteMe/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Cierra-Runis/WriteMe" alt="mercurius"/>
+  <img src="https://contrib.rocks/image?repo=Cierra-Runis/WriteMe" alt="writeMe"/>
 </a>
 
 # 🔦 声明
