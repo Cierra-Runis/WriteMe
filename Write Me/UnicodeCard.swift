@@ -8,10 +8,12 @@
 import SwiftUI
 
 struct UnicodeCard: View {
-    let unicode: UInt16
+    let unicode: UnicodeScalar
+    let color: Color?
 
-    var unNullableScalar: UnicodeScalar {
-        return UnicodeScalar(unicode) ?? UnicodeScalar(0xE001)!
+    init(unicode: UnicodeScalar, color: Color? = nil) {
+        self.unicode = unicode
+        self.color = color
     }
 
     var body: some View {
@@ -19,44 +21,35 @@ struct UnicodeCard: View {
             EditorPage(unicode: unicode)
         }
         label: {
-            GeometryReader {
-                _ in ZStack {
-                    Text("\(unNullableScalar.description)")
-                        .frame(alignment: .top)
-                        .font(.custom("Plangothic P1", size: Font.largeTitle.pointSize))
-                        .font(.custom("Plangothic P2", size: Font.largeTitle.pointSize))
-                        .foregroundStyle(.secondary)
+            ZStack {
+                CharacterMetricsView(unicodeScalar: unicode)
 
-                        .border(.ultraThinMaterial, width: /*@START_MENU_TOKEN@*/1/*@END_MENU_TOKEN@*/)
+                VStack(alignment: .leading) {
+                    Text("U+\(unicode.value, specifier: "%LLX")")
+                        .font(.title2)
+                        .monospaced()
+                        .fontWeight(.bold)
+                        .foregroundStyle(color != nil ? color! : .secondary)
 
-                    VStack(alignment: .leading) {
-                        Text("\(unicode.toHexString(prefix: "U+"))")
-                            .font(.title2)
-                            .monospaced()
-                            .fontWeight(.bold)
-                            .foregroundStyle(.secondary)
-
-                        Spacer()
-                        HStack(alignment: .bottom) {
-                            VStack(alignment: .leading) {
-                                Text("\(unNullableScalar.description)")
-                                    .font(.custom("Plangothic P1", size: Font.title2.pointSize))
-                                    .font(.custom("Plangothic P2", size: Font.title2.pointSize))
-                                    .foregroundStyle(.secondary)
+                    Spacer()
+                    HStack(alignment: .bottom) {
+                        VStack(alignment: .leading) {
+                            if unicode.properties.name != nil { Text("\(unicode.properties.name!)").foregroundStyle(.secondary) } else {
+                                if unicode.properties.nameAlias != nil { Text("\(unicode.properties.nameAlias!)").foregroundStyle(.secondary) }
                             }
-                            Spacer()
                         }
+                        Spacer()
                     }
-                }.lineLimit(1)
-            }
-            .padding(25.0).background(.regularMaterial)
-            .containerShape(RoundedRectangle(cornerRadius: 25.0))
-            .frame(maxWidth: 400, maxHeight: 400)
-            .aspectRatio(1, contentMode: .fit)
+                }
+            }.lineLimit(1)
+                .padding(25.0).background(.regularMaterial)
+                .containerShape(RoundedRectangle(cornerRadius: 25.0))
+                .frame(maxWidth: 400, maxHeight: 400)
+                .aspectRatio(1, contentMode: .fit)
         }.foregroundStyle(.primary)
     }
 }
 
 #Preview {
-    UnicodeCard(unicode: UInt16.random(in: UInt16.min ... UInt16.max))
+    UnicodeCard(unicode: UnicodeScalar("\u{E001}"))
 }

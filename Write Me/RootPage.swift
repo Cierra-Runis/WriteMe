@@ -10,9 +10,6 @@ import SwiftUI
 struct RootPage: View {
     @State private var isShowingSheet = false
 
-    
-    
-    
     var body: some View {
         NavigationSplitView {
             List {
@@ -31,7 +28,7 @@ struct RootPage: View {
                             action: { isShowingSheet.toggle() }
                         )
                         .sheet(isPresented: $isShowingSheet) {
-                            SettingsView()
+                            SettingsPage()
                         }
                     }
                 }

@@ -53,9 +53,3 @@ extension Font {
         }
     }
 }
-
-extension UInt16 {
-    func toHexString(uppercase: Bool = true, prefix: String = "") -> String {
-        return "\(prefix)\(String(self, radix: 16, uppercase: uppercase))"
-    }
-}

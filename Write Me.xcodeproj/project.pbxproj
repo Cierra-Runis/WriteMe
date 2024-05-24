@@ -11,12 +11,14 @@
 		5920E9642BFAB7EB00F5FEA4 /* RootPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5920E9632BFAB7EB00F5FEA4 /* RootPage.swift */; };
 		5920E9662BFAB7EB00F5FEA4 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5920E9652BFAB7EB00F5FEA4 /* Project.swift */; };
 		5920E9682BFAB7EC00F5FEA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5920E9672BFAB7EC00F5FEA4 /* Assets.xcassets */; };
-		5920E96C2BFAB7EC00F5FEA4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5920E96B2BFAB7EC00F5FEA4 /* Preview Assets.xcassets */; };
 		5920E9762BFAB7EC00F5FEA4 /* Write_MeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5920E9752BFAB7EC00F5FEA4 /* Write_MeTests.swift */; };
 		5920E9802BFAB7EC00F5FEA4 /* Write_MeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5920E97F2BFAB7EC00F5FEA4 /* Write_MeUITests.swift */; };
 		5920E9822BFAB7EC00F5FEA4 /* Write_MeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5920E9812BFAB7EC00F5FEA4 /* Write_MeUITestsLaunchTests.swift */; };
 		5920E98F2BFABECA00F5FEA4 /* ProjectsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5920E98E2BFABECA00F5FEA4 /* ProjectsPage.swift */; };
-		5920E9922BFAD80C00F5FEA4 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5920E9912BFAD80C00F5FEA4 /* SettingsView.swift */; };
+		5920E9922BFAD80C00F5FEA4 /* SettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5920E9912BFAD80C00F5FEA4 /* SettingsPage.swift */; };
+		5955BC502C0092A700C9F63C /* UnicodePropertiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5955BC4F2C0092A700C9F63C /* UnicodePropertiesView.swift */; };
+		595793892BFF82B700304A69 /* CharacterMetricsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595793882BFF82B700304A69 /* CharacterMetricsView.swift */; };
+		598DD5B32C0032C80003834A /* CreateNewProjectSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598DD5B22C0032C80003834A /* CreateNewProjectSheet.swift */; };
 		59E765942BFB1C3800ACAA84 /* ProjectCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E765932BFB1C3800ACAA84 /* ProjectCard.swift */; };
 		59E765972BFB221B00ACAA84 /* SwiftDate in Frameworks */ = {isa = PBXBuildFile; productRef = 59E765962BFB221B00ACAA84 /* SwiftDate */; };
 		59E765992BFB2D1B00ACAA84 /* ProjectPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E765982BFB2D1B00ACAA84 /* ProjectPage.swift */; };
@@ -49,14 +51,16 @@
 		5920E9652BFAB7EB00F5FEA4 /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
 		5920E9672BFAB7EC00F5FEA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5920E9692BFAB7EC00F5FEA4 /* Write_Me.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Write_Me.entitlements; sourceTree = "<group>"; };
-		5920E96B2BFAB7EC00F5FEA4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5920E9712BFAB7EC00F5FEA4 /* Write MeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Write MeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5920E9752BFAB7EC00F5FEA4 /* Write_MeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Write_MeTests.swift; sourceTree = "<group>"; };
 		5920E97B2BFAB7EC00F5FEA4 /* Write MeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Write MeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5920E97F2BFAB7EC00F5FEA4 /* Write_MeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Write_MeUITests.swift; sourceTree = "<group>"; };
 		5920E9812BFAB7EC00F5FEA4 /* Write_MeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Write_MeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		5920E98E2BFABECA00F5FEA4 /* ProjectsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsPage.swift; sourceTree = "<group>"; };
-		5920E9912BFAD80C00F5FEA4 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		5920E9912BFAD80C00F5FEA4 /* SettingsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPage.swift; sourceTree = "<group>"; };
+		5955BC4F2C0092A700C9F63C /* UnicodePropertiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnicodePropertiesView.swift; sourceTree = "<group>"; };
+		595793882BFF82B700304A69 /* CharacterMetricsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterMetricsView.swift; sourceTree = "<group>"; };
+		598DD5B22C0032C80003834A /* CreateNewProjectSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewProjectSheet.swift; sourceTree = "<group>"; };
 		59BF1E7D2BFE625A00D38AAA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		59E765932BFB1C3800ACAA84 /* ProjectCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectCard.swift; sourceTree = "<group>"; };
 		59E765982BFB2D1B00ACAA84 /* ProjectPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectPage.swift; sourceTree = "<group>"; };
@@ -116,30 +120,24 @@
 		5920E9602BFAB7EB00F5FEA4 /* Write Me */ = {
 			isa = PBXGroup;
 			children = (
-				59E7659D2BFB52E500ACAA84 /* Write-Me-Info.plist */,
 				59E7659A2BFB520F00ACAA84 /* Font */,
-				5920E9612BFAB7EB00F5FEA4 /* MainApp.swift */,
-				59E765A02BFB5E0C00ACAA84 /* EditorPage.swift */,
-				59E765982BFB2D1B00ACAA84 /* ProjectPage.swift */,
-				5920E9652BFAB7EB00F5FEA4 /* Project.swift */,
-				5920E98E2BFABECA00F5FEA4 /* ProjectsPage.swift */,
-				5920E9632BFAB7EB00F5FEA4 /* RootPage.swift */,
-				5920E9912BFAD80C00F5FEA4 /* SettingsView.swift */,
+				598DD5B52C0036AF0003834A /* Database */,
 				5920E9672BFAB7EC00F5FEA4 /* Assets.xcassets */,
+				59E7659D2BFB52E500ACAA84 /* Write-Me-Info.plist */,
 				5920E9692BFAB7EC00F5FEA4 /* Write_Me.entitlements */,
-				5920E96A2BFAB7EC00F5FEA4 /* Preview Content */,
 				59E765932BFB1C3800ACAA84 /* ProjectCard.swift */,
 				59E7659E2BFB5D8400ACAA84 /* UnicodeCard.swift */,
+				595793882BFF82B700304A69 /* CharacterMetricsView.swift */,
+				5920E98E2BFABECA00F5FEA4 /* ProjectsPage.swift */,
+				598DD5B22C0032C80003834A /* CreateNewProjectSheet.swift */,
+				59E765982BFB2D1B00ACAA84 /* ProjectPage.swift */,
+				5920E9632BFAB7EB00F5FEA4 /* RootPage.swift */,
+				5920E9912BFAD80C00F5FEA4 /* SettingsPage.swift */,
+				59E765A02BFB5E0C00ACAA84 /* EditorPage.swift */,
+				5920E9612BFAB7EB00F5FEA4 /* MainApp.swift */,
+				5955BC4F2C0092A700C9F63C /* UnicodePropertiesView.swift */,
 			);
 			path = "Write Me";
-			sourceTree = "<group>";
-		};
-		5920E96A2BFAB7EC00F5FEA4 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				5920E96B2BFAB7EC00F5FEA4 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		5920E9742BFAB7EC00F5FEA4 /* Write MeTests */ = {
@@ -157,6 +155,14 @@
 				5920E9812BFAB7EC00F5FEA4 /* Write_MeUITestsLaunchTests.swift */,
 			);
 			path = "Write MeUITests";
+			sourceTree = "<group>";
+		};
+		598DD5B52C0036AF0003834A /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				5920E9652BFAB7EB00F5FEA4 /* Project.swift */,
+			);
+			path = Database;
 			sourceTree = "<group>";
 		};
 		59E7659A2BFB520F00ACAA84 /* Font */ = {
@@ -234,7 +240,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1530;
-				LastUpgradeCheck = 1530;
+				LastUpgradeCheck = 1540;
 				TargetAttributes = {
 					5920E95D2BFAB7EB00F5FEA4 = {
 						CreatedOnToolsVersion = 15.3;
@@ -280,7 +286,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				59E7659C2BFB523C00ACAA84 /* Plangothic.ttc in Resources */,
-				5920E96C2BFAB7EC00F5FEA4 /* Preview Assets.xcassets in Resources */,
 				5920E9682BFAB7EC00F5FEA4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,13 +312,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				59E765992BFB2D1B00ACAA84 /* ProjectPage.swift in Sources */,
-				5920E9922BFAD80C00F5FEA4 /* SettingsView.swift in Sources */,
+				5920E9922BFAD80C00F5FEA4 /* SettingsPage.swift in Sources */,
 				5920E9642BFAB7EB00F5FEA4 /* RootPage.swift in Sources */,
 				5920E98F2BFABECA00F5FEA4 /* ProjectsPage.swift in Sources */,
 				59E765942BFB1C3800ACAA84 /* ProjectCard.swift in Sources */,
+				595793892BFF82B700304A69 /* CharacterMetricsView.swift in Sources */,
 				59E765A12BFB5E0C00ACAA84 /* EditorPage.swift in Sources */,
 				59E7659F2BFB5D8400ACAA84 /* UnicodeCard.swift in Sources */,
 				5920E9662BFAB7EB00F5FEA4 /* Project.swift in Sources */,
+				5955BC502C0092A700C9F63C /* UnicodePropertiesView.swift in Sources */,
+				598DD5B32C0032C80003834A /* CreateNewProjectSheet.swift in Sources */,
 				5920E9622BFAB7EB00F5FEA4 /* MainApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,6 +364,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -385,6 +394,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -403,10 +413,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -417,6 +429,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -446,6 +459,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -458,9 +472,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 			};
 			name = Release;
@@ -473,33 +489,40 @@
 				CODE_SIGN_ENTITLEMENTS = "Write Me/Write_Me.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Write Me/Preview Content\"";
 				DEVELOPMENT_TEAM = JV9FLPTQ85;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Write-Me-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "pers.cierra-runis.Write-Me";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
+				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -514,33 +537,39 @@
 				CODE_SIGN_ENTITLEMENTS = "Write Me/Write_Me.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Write Me/Preview Content\"";
 				DEVELOPMENT_TEAM = JV9FLPTQ85;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Write-Me-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "pers.cierra-runis.Write-Me";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
+				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -554,16 +583,19 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV9FLPTQ85;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "pers.cierra-runis.Write-MeTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
+				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -578,16 +610,19 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV9FLPTQ85;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "pers.cierra-runis.Write-MeTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
+				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -601,16 +636,19 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV9FLPTQ85;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "pers.cierra-runis.Write-MeUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
+				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -624,16 +662,19 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = JV9FLPTQ85;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MACOSX_DEPLOYMENT_TARGET = 14.4;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "pers.cierra-runis.Write-MeUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
+				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 2;
