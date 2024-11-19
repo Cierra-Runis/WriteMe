@@ -14,10 +14,11 @@ struct CharacterMetricsView: View {
                 .font: font,
                 .foregroundColor: UIColor.label
             ]
-            let attributedString = NSAttributedString(string: String(unicodeScalar), attributes: attributes)
+            let attributedString = NSAttributedString(string: unicodeScalar.description, attributes: attributes)
 
             let line = CTLineCreateWithAttributedString(attributedString)
             let runArray = CTLineGetGlyphRuns(line) as! [CTRun]
+
             guard let run = runArray.first else { return }
 
             let glyphRange = CFRange(location: 0, length: 1)
@@ -73,12 +74,14 @@ struct CharacterMetricsView: View {
                 with: .color(.blue),
                 lineWidth: 1
             )
+
+//            print("\(unicodeScalar) \(unicodeScalar.value) capHeight \(capHeight) ascent \(ascent) xHeight \(xHeight) \(CTFontCopyFamilyName(font)) \(CTFontGetGlyphCount(font))")
         }
     }
 }
 
 #Preview {
     NavigationStack {
-        CharacterMetricsView(unicodeScalar: "\u{E004}")
+        CharacterMetricsView(unicodeScalar: "\u{0A11}")
     }
 }

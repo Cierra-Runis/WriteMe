@@ -51,5 +51,5 @@ struct UnicodeCard: View {
 }
 
 #Preview {
-    UnicodeCard(unicode: UnicodeScalar("\u{E001}"))
+    UnicodeCard(unicode: UnicodeScalar("\u{0}"))
 }

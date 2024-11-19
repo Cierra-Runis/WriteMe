@@ -13,14 +13,13 @@ struct ProjectPage: View {
     @State private var searchingUnicode: String = ""
 
     // Unicode 码点范围
-    let codePoints = (0x0000...0x10FFFF).compactMap { Unicode.Scalar($0) }
     let itemsPerPage = 512 // 每页显示的项目数
     @State private var currentPage = 0 // 当前页码
 
     var currentPageItems: [Unicode.Scalar] {
         let startIndex = currentPage * itemsPerPage
-        let endIndex = min(startIndex + itemsPerPage, codePoints.count)
-        return Array(codePoints[startIndex ..< endIndex])
+        let endIndex = min(startIndex + itemsPerPage, 0x10FFFF)
+        return Array((startIndex...endIndex).compactMap { Unicode.Scalar($0) })
     }
 
     var body: some View {
@@ -41,9 +40,9 @@ struct ProjectPage: View {
                     { Text("Previous") }
                     .disabled(currentPage == 0)
 
-                Button(action: { if (currentPage + 1) * itemsPerPage < codePoints.count { currentPage += 1 } })
+                Button(action: { if (currentPage + 1) * itemsPerPage < 0x10FFFF { currentPage += 1 } })
                     { Text("Next") }
-                    .disabled((currentPage + 1) * itemsPerPage >= codePoints.count)
+                    .disabled((currentPage + 1) * itemsPerPage >= 0x10FFFF)
             }
             .navigationTitle("\(project.name) - Page \(currentPage + 1)")
             .navigationBarTitleDisplayMode(.inline)
